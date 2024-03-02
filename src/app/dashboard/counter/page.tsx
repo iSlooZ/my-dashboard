@@ -13,7 +13,7 @@ export default function Counterpage() {
 
 
   return (
-    <div className="flex flex-col items-center justify-center w-full h-full">
+    <div className="flex flex-col items-center justify-center w-2/3 h-full">
       <span>Productos en el Carrito de Compras</span>
       <CartCounter value={20}/>
     </div>
